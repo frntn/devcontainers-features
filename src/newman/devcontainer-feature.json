@@ -1,0 +1,17 @@
+{
+    "name": "Newman",
+    "id": "newman",
+    "version": "1.0.0",
+    "description": "Newman is a command-line collection runner for Postman",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "5.3.2"
+            ],
+            "default": "latest",
+            "description": "Select or enter an anaconda version."
+        }
+    }
+}
