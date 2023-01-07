@@ -15,9 +15,12 @@ It requires `npm` so must use a container with `nodejs` installed first.
 
 Simply reference `newman` package inside your `.devcontainer.json`.
 
-- Example 1 : Pre-built node image - Debian Bullseye - 1.27 GB
+#### Example 1 : Pre-built node image - Debian Bullseye - 1.27 GB
+
+Add the following files in `.devcontainer.json` file
 
 ```jsonc
+// .devcontainer.json
 {
     "name": "My Dev Container Name",
     "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
@@ -30,9 +33,12 @@ Simply reference `newman` package inside your `.devcontainer.json`.
 }
 ```
 
-- Example 2 : Built from base image - Ubuntu Jammy - 485 MB
+#### Example 2 : Built from base image - Ubuntu Jammy - 485 MB
+
+Add the following files in `.devcontainer` folder
+
 ```jsonc
-// devcontainer.json
+// .devcontainer/devcontainer.json
 {
     "name": "My Dev Container Name",
     "build": {
@@ -43,12 +49,12 @@ Simply reference `newman` package inside your `.devcontainer.json`.
             "version": "5.3.2"
         }
     },
-    "remoteUser": "node"
+    "remoteUser": "root"
 }
 ```
 
 ```dockerfile
-# Dockerfile.nodejs
+# .devcontainer/Dockerfile.nodejs
 FROM mcr.microsoft.com/devcontainers/base:ubuntu
 ARG DEBIAN_FRONTEND=noninteractive
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && apt-get install -y nodejs
