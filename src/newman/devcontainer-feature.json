@@ -1,7 +1,7 @@
 {
     "name": "Newman",
     "id": "newman",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Newman is a command-line collection runner for Postman",
     "options": {
         "version": {
