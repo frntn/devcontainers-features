@@ -5,8 +5,9 @@ command_exists() {
 	command -v "$@" > /dev/null 2>&1
 }
 
-export VERSION="${VERSION:-"latest"}"
 export DEBIAN_FRONTEND=noninteractive
+export VERSION="${VERSION:-"latest"}"
+export PACKAGE="newman@${VERSION}"
 
 # Check if npm is installed
 if ! command_exists npm; then
@@ -17,10 +18,8 @@ if ! command_exists npm; then
     exit 1
 fi
 
-
 echo "(*) Installing ${PACKAGE}..."
 
-PACKAGE="newman@${VERSION}"
 npm install -g "$PACKAGE"
 
 echo "Done!"
