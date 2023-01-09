@@ -16,7 +16,7 @@ Newman is a command-line collection runner for Postman
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select or enter an anaconda version. | string | latest |
+| version | Select or enter a newman version. | string | latest |
 
 # Pre-requisites
 
@@ -26,7 +26,7 @@ Newman is a command-line collection runner for Postman
 
 # Versions
 
-Available versions of the Newman can be found here: https://www.npmjs.com/package/newman?activeTab=versions.
+Available versions of Newman can be found here: https://www.npmjs.com/package/newman?activeTab=versions.
 
 
 ---
