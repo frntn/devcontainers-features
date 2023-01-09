@@ -17,7 +17,7 @@ then
     VERSION="$(curl https://api.github.com/repos/zricethezav/gitleaks/releases/latest | jq '.name')"
 fi
 
-echo "(*) Installing ${PACKAGE}..."
+echo "(*) Installing Gitleaks..."
 
 curl -sSL https://github.com/zricethezav/gitleaks/releases/download/${VERSION}/gitleaks_${VERSION#v}_linux_x64.tar.gz | tar xz -C /usr/bin gitleaks
 
