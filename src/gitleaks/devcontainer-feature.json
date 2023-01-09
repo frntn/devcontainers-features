@@ -1,0 +1,17 @@
+{
+    "name": "Gitleaks",
+    "id": "gitleaks",
+    "version": "1.0.0",
+    "description": "Gitleaks is a SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "v8.15.2"
+            ],
+            "default": "latest",
+            "description": "Select or enter a gitleaks version."
+        }
+    }
+}
