@@ -2,7 +2,9 @@
 
 This repo provides the packages for [devcontainer features](https://containers.dev/implementors/features/), hosted for free on GitHub Container Registry.
 
-The named of the repo follows the naming convention of the source github .com/`devcontainers/features` => github .com/frntn/`devcontainers-features`
+The name of the repo follows the naming convention of the source repo : 
+ - github .com/`devcontainers/features`
+ - github .com/frntn/`devcontainers-features`
 
 ## Packages
 
