@@ -14,7 +14,7 @@ fi
 
 if [ "$VERSION" = "latest" ]
 then
-    VERSION="$(curl https://api.github.com/repos/zricethezav/gitleaks/releases/latest | jq '.name')"
+    VERSION="$(curl https://api.github.com/repos/zricethezav/gitleaks/releases/latest | jq -r '.name')"
 fi
 
 echo "(*) Installing Gitleaks ${VERSION}..."
