@@ -9,7 +9,9 @@ The name of the repo follows the naming convention of the source repo :
 ## Packages
 
 This repository contains a _collection_ of the following features :
- - `newman` : the command-line collection runner for Postman
+ - `newman` : command-line companion for Postman. Open source - Maintained and supported by community contributions.
+ - `postman` : command-line companion for Postman. Closed source - Maintained and supported by Postman.
+ - `gitleaks` : SAST tool for detecting and preventing hardcoded secrets to be leaked in git repo.
 
 ### `newman`
 
@@ -61,3 +63,11 @@ FROM mcr.microsoft.com/devcontainers/base:ubuntu
 ARG DEBIAN_FRONTEND=noninteractive
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && apt-get install -y nodejs
 ```
+
+### `postman`
+
+_TODO_
+
+### `gitleak`
+
+_TODO_
