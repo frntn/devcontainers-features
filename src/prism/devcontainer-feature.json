@@ -1,0 +1,17 @@
+{
+    "name": "Prism",
+    "id": "prism",
+    "version": "1.0.0",
+    "description": "Prism turns any Swagger/OpenAPI definition and Postman Collection file into an API server with mocking, transformations and validations",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "4.10.5"
+            ],
+            "default": "latest",
+            "description": "Select or enter a prism version."
+        }
+    }
+}
