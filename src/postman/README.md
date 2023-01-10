@@ -1,5 +1,4 @@
 
-
 # Postman (postman)
 
 Postman CLI is a secure command-line companion for Postman. It is secured and supported by Postman

@@ -1,5 +1,4 @@
 
-
 # Newman (newman)
 
 Newman is a command-line collection runner for Postman
@@ -26,7 +25,7 @@ Newman is a command-line collection runner for Postman
 
 # Versions
 
-Available versions of Newman can be found here: https://www.npmjs.com/package/newman?activeTab=versions.
+Available versions of `Newman` can be found here: https://www.npmjs.com/package/newman?activeTab=versions.
 
 
 ---

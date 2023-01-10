@@ -1,5 +1,4 @@
 
-
 # Gitleaks (gitleaks)
 
 Gitleaks is a SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos
