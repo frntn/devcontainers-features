@@ -8,7 +8,7 @@ export DEBIAN_FRONTEND=noninteractive
 export VERSION="${VERSION:-"latest"}"
 
 # Check if jq is installed
-if ! command_exists npm; then
+if ! command_exists jq; then
     apt-get update && apt-get install -y jq
 fi
 
